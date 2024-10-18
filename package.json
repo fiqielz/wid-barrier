@@ -1,0 +1,10 @@
+{
+  "name": "wild-barrier",
+  "version": "1.0.0",
+  "scripts": {
+    "start": "node server.js"  // Gantikan ini dengan arahan yang sesuai untuk projek kau
+  },
+  "dependencies": {
+    // Jika ada dependensi lain, senaraikan di sini
+  }
+}
