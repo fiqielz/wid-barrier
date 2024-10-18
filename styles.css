@@ -1,48 +1,30 @@
 body {
-    font-family: Arial, sans-serif;
-    background-color: #f0f0f0;
-    margin: 0;
-    padding: 0;
-    display: flex;
-    justify-content: center;
-    align-items: center;
-    height: 100vh;
-    flex-direction: column;
+    font-family: Arial, sans-serif; /* Font untuk keseluruhan halaman */
 }
 
-h1 {
-    color: #4caf50; /* hijau */
-    font-weight: bold;
-    cursor: pointer;
-    transition: color 0.3s;
-}
-
-h1:hover {
-    color: #666; /* kelabu */
-}
 .container {
-    display: flex;
-    justify-content: space-between;
-    align-items: center;
-    margin-top: 20px;
-    padding: 20px;
-    flex-wrap: wrap; /* Allow wrapping for smaller screens */
+    display: flex; /* Menyusun item dalam barisan */
+    justify-content: space-between; /* Menyediakan jarak antara section */
+    align-items: center; /* Menyusun item di tengah secara vertikal */
+    margin-top: 20px; /* Jarak di atas container */
+    padding: 20px; /* Jarak dalam container */
+    flex-wrap: wrap; /* Membenarkan section berpindah ke barisan baru jika tidak cukup ruang */
 }
 
 .section {
-    width: 200px;
-    height: 150px;
-    background-color: white;
-    border: 2px solid black; /* Border hitam */
-    display: flex;
-    justify-content: center;
-    align-items: center;
-    cursor: pointer;
-    font-size: 24px;
-    transition: background-color 0.3s;
-    margin: 10px; /* Space between sections */
+    width: 200px; /* Lebar section */
+    height: 150px; /* Tinggi section */
+    background-color: white; /* Warna latar belakang section */
+    border: 2px solid black; /* Border hitam untuk section */
+    display: flex; /* Mengatur item dalam section */
+    justify-content: center; /* Mengatur teks di tengah secara mendatar */
+    align-items: center; /* Mengatur teks di tengah secara menegak */
+    cursor: pointer; /* Mengubah kursor untuk menunjukkan ia boleh diklik */
+    font-size: 24px; /* Saiz font dalam section */
+    transition: background-color 0.3s; /* Animasi perubahan warna latar belakang */
+    margin: 10px; /* Jarak antara section */
 }
 
 .section:hover {
-    background-color: #e0e0e0; /* Light gray on hover */
+    background-color: #e0e0e0; /* Warna latar belakang berubah apabila mouse berada di atas */
 }
