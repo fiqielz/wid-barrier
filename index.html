@@ -7,7 +7,23 @@
     <link rel="stylesheet" href="styles.css">
 </head>
 <body>
-    <h1 id="title" style="text-align: center; font-weight: bold; color: green;">Wild Barrier</h1>
+    <div class="container">
+        <h1 class="title" onclick="goToNextScreen()">Wild Barrier</h1>
+        <div class="sections">
+            <div class="section" onclick="customizeName(0)">
+                <p id="name0">None</p>
+            </div>
+            <div class="section" onclick="customizeName(1)">
+                <p id="name1">None</p>
+            </div>
+            <div class="section" onclick="customizeName(2)">
+                <p id="name2">None</p>
+            </div>
+            <div class="section" onclick="customizeName(3)">
+                <p id="name3">None</p>
+            </div>
+        </div>
+    </div>
     <script src="script.js"></script>
 </body>
 </html>
