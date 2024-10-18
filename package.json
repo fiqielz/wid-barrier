@@ -2,9 +2,9 @@
   "name": "wild-barrier",
   "version": "1.0.0",
   "scripts": {
-    "start": "node server.js"  // Gantikan ini dengan arahan yang sesuai untuk projek kau
+    "start": "node server.js"
   },
   "dependencies": {
-    // Jika ada dependensi lain, senaraikan di sini
+    "express": "^4.17.1"
   }
 }
