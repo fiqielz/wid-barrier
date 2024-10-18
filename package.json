@@ -7,5 +7,5 @@
   "dependencies": {
     "express": "^4.17.1"
   },
-  "license": "MIT"  // Menambah maklumat lesen
+  "license": "MIT"
 }
