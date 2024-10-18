@@ -1,10 +1,10 @@
-document.getElementById('title').addEventListener('click', function() {
-    window.location.href = 'second.html'; // Bawa ke next screen
-});
+function goToNextScreen() {
+    alert("Next screen logic can be implemented here!");
+}
 
-function customizeName(section) {
-    const newName = prompt("Enter new name:", section.textContent);
+function customizeName(index) {
+    const newName = prompt("Enter new name:");
     if (newName) {
-        section.textContent = newName; // Update section dengan nama baru
+        document.getElementById(`name${index}`).innerText = newName;
     }
 }
